@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#carousel-img">The Elder Scrolls</a></li>
+        <li class="mobiledisplay"><a href="#desc-text">Overview</a></li>
+        <li class="mobiledisplay"><a href="#gplay-text">Gameplay</a></li>
+        <li class="mobiledisplay"><a href="#side-desc">Releases</a></li>
+        <li class="menu-bt" onclick=showDdown()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg></a></li>
+      </ul>
+      <ul class="drop-down">
+        <li onclick=closeDdown()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"></path></svg></a></li>
+        <li><a href="#desc-text">Overview</a></li>
+        <li><a href="#gplay-text">Gameplay</a></li>
+        <li><a href="#side-desc">Releases</a></li>
+      </ul>
+    </nav>
+    <div class="carousel-img">
+      <div class="imgSlide fade">
+        <img src="https://storage.googleapis.com/simple-wiki-fz/skyrim.jpg" style="width: 100%; height: 100%;">
+      </div>
+      
+      <div class="imgSlide fade">
+        <img src="https://storage.googleapis.com/simple-wiki-fz/oblivion.png" style="width: 100%; height: 100%;">
+      </div>
+      
+      <div class="imgSlide fade">
+        <img src="https://storage.googleapis.com/simple-wiki-fz/morrrowind.png" style="width: 100%; height: 100%;">
+      </div>
+      
+      <div class="imgSlide fade">
+        <img src="https://storage.googleapis.com/simple-wiki-fz/redguard.jpg" style="width: 100%; height: 100%;">
+      </div>
+      
+      <div class="imgSlide fade">
+        <img src="https://storage.googleapis.com/simple-wiki-fz/daggerfall.jpg" style="width: 100%; height: 100%;">
+      </div>
+        
+      <div class="dotsbox" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="sct-2">
+      <article class="desc-text" id="desc-text">
+        <H1>The Elder Scrolls</H1>
+        <img class="img-logo" src="https://storage.googleapis.com/simple-wiki-fz/ES.png" alt="logo">
+        <p>
+          The Elder Scrolls is a series of action role-playing video games primarily developed by Bethesda Game Studios and published by Bethesda Softworks. The series focuses on free-form gameplay in an open world. Morrowind, Oblivion and Skyrim all won Game of the Year awards from multiple outlets. The series has sold more than 58 million copies worldwide.
+        </p>
+
+        <p>
+          Within the series' fictional universe, each game takes place on the continent of Tamriel. The setting combines pre-medieval real-world elements, such as a powerful Roman-like Empire, with high fantasy medieval themes, including limited technology, widespread magic use, and the existence of many mythological creatures. The continent is split into a number of provinces inhabited by humans and humanoid fantasy races such as elves, orcs and anthropomorphic animals. A common theme in the lore is that a chosen hero rises to defeat an impending threat (typically a malevolent being or an antagonistic army).
+        </p>
+
+        <p class="end-desc">
+          Since debuting with The Elder Scrolls: Arena in 1994, the series has produced a total of five main games (of which the last three have each featured two or three expansions) as well as several spin-offs.In 2014, a massively multiplayer online role-playing game, The Elder Scrolls Online, was released by Bethesda's affiliated ZeniMax subsidiary ZeniMax Online Studios. 
+        </p>
+        
+      </article>
+      <article class="gplay-text" id="gplay-text">
+        <H1>Gameplay</H1>
+        <p>
+          The Elder Scrolls games are action role-playing games and include elements taken from action and adventure games. In Arena, players advance by killing monsters (and thereby gaining experience points) until a preset value is met, whereupon they level-up. However, in Daggerfall, Morrowind, and Oblivion, the series took a skill-based approach to character advancement. Players develop their characters' skills by applying them and only level-up when a certain set of skills have been developed. Skyrim took a new approach, where the more a skill is leveled, the more it helps to level the character. This shifted the focus away from character creation and more onto character development. The flexibility of the games' engines has facilitated the release of game extensions (or mods) through The Elder Scrolls Construction Set. 
+        </p>
+
+        <p>
+          The Elder Scrolls main series of games emphasizes different aspects of the gaming experience than most role-playing games. A brief article by Joystiq in early November 2006 compared BioWare's creations to Bethesda's by noting a difference in emphasis. Bethesda's creations focused on "aesthetic presentation and open-ended adventuring"; BioWare's on a combat system and modular architecture. This overarching aim has been noted by their designers as well. Bethesda has described their motivations in creating the first series game, Arena, as those of any good pen-and-paper role-playing games: creating an environment in which the player could be what the player wants and do what the player wants. Daggerfall's manual begins with a design manifesto, declaring the developers' intention to "create a book with blank pages" and "a game designed to encourage exploration and reward curiosity". Choices, in the form of paths taken by the player, to do good, to chase after evil, are left open to the player, "just like in real life". This design trend continued with Morrowind, following the hiatus of similarly epic games in the interim, though Joystiq's previously noted insistence on graphics came again to the fore. During the development of Morrowind, Bethesda tripled its staff, so as to perfectly color its newly hand-made world. In their own words, "We knew we had to exceed the visual polish of the other games on the market, and we made it our goal to put The Elder Scrolls back into the forefront of game innovation." 
+        </p>
+      </article>
+    </div> 
+
+    <div  class="side-desc" id="side-desc">
+    <aside>
+      <H2>Release Timeline</H2>
+      <img src="https://storage.googleapis.com/simple-wiki-fz/skylogo.png" alt="tl-logo">
+      <ul>
+        <li><p>The Elder Scrolls: Arena (1994)</p></li>
+        <li><p>The Elder Scrolls II: Daggerfall (1996)</p></li>
+        <li><p>An Elder Scrolls Legend: Battlespire (1997)</p></li>
+        <li><p>The Elder Scrolls Adventures: Redguard (1998)</p></li>
+        <li><p>The Elder Scrolls III: Morrowind (2002)</p></li>
+        <li><p>The Elder Scrolls IV: Oblivion (2006)</p></li>
+        <li><p>The Elder Scrolls V: Skyrim (2011)</p></li>
+        <li><p>The Elder Scrolls VI (TBA)</p></li>
+      </ul>
+    </aside>
+  </div>
+  </main>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/muhammad-faiz-fatwa-syarifuddin-011b18193" target="_blank">LinkedIn</a>
+    /
+    <a href="mailto:faizfatwa030206@gmail.com" target="_blank">Email</a>
+
+    <p>&copy; Faiz Fatwa</p>
+    
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
